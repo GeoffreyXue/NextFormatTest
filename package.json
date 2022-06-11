@@ -1,5 +1,5 @@
 {
-  "name": "ssr-with-tests",
+  "name": "next-format-test-template",
   "author": "Geoffrey Xue",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "pretty": "prettier --check ./src/**/*.{ts,tsx,js,json,css,html}",
-    "pretty-fix": "prettier --write ./src/**/*.{ts,tsx,js,json,css,html}"
+    "pretty-fix": "prettier --write ./src/**/*.{ts,tsx,js,json,css,html}",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "12.1.6",

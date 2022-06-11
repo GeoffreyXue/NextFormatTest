@@ -1,5 +1,5 @@
-# SSR With Tests 
-Experimentation with building a test suite with an SSR app on Next
+# Next Formatting/Testing template
+A project setup experiment to support standardized formatting/cleaning conventions and testing dependencies out of the box
 
 ## Dependencies
 **Overall Project Structure**
@@ -22,15 +22,19 @@ Experimentation with building a test suite with an SSR app on Next
 - Get automated package updates running (dependabot?)
 - Continuous delivery
     - Automated test runs of Vitest and Cypress using Github actions
-
+- Maybe Swagger documentation for backend?
 
 ## Running Dev Server
-
 ```bash
 npm run dev
 ```
-
 See all available commands to run with `npm run [command]` in `package.json`.
+
+## Setting up Husky
+```bash
+npx husky install
+npx husky add .husky/pre-commit "npm run pretty && npm run lint"
+```
 
 #
 
