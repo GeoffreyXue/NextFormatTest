@@ -1,17 +1,28 @@
 # SSR With Tests 
-Experimentation with different testing methods with SSR
+Experimentation with building a test suite with an SSR app on Next
 
-### Dependencies
+## Dependencies
+**Overall Project Structure**
 - EditorConfig
 - Next JS
 - Typescript
 - React
+
+**Formatting and Cleanliness**
 - ESLint
 - Prettier
 - Husky
 
+**Testing** 
+- Vitest for Unit tests
+- Cypress for Integration/Acceptance tests
+
+
 ### Future Goals
-- Get automated package updates running with something close to dependabot
+- Get automated package updates running (dependabot?)
+- Continuous delivery
+    - Automated test runs of Vitest and Cypress using Github actions
+
 
 ## Running Dev Server
 
@@ -19,6 +30,9 @@ Experimentation with different testing methods with SSR
 npm run dev
 ```
 
+See all available commands to run with `npm run [command]` in `package.json`.
+
+#
 
 ## Deploy on Vercel
 
