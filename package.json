@@ -7,7 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "pretty": "prettier --check ./src/**/*.{ts,tsx,js,json,css,html}",
+    "pretty-fix": "prettier --write ./src/**/*.{ts,tsx,js,json,css,html}"
   },
   "dependencies": {
     "next": "12.1.6",

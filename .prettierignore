@@ -1,0 +1,5 @@
+*.min.js
+*.min.css
+.next
+node_modules
+public
