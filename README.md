@@ -2,6 +2,7 @@
 Experimentation with different testing methods with SSR
 
 ### Dependencies
+- EditorConfig
 - Next JS
 - Typescript
 - React
