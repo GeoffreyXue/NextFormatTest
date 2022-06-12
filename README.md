@@ -14,9 +14,7 @@ A project setup experiment to support standardized formatting/cleaning conventio
 - Husky
 
 **Testing** 
-- Vitest for Unit tests
-- Cypress for Integration/Acceptance tests
-
+- Cypress
 
 ### Future Goals
 - Get automated package updates running (dependabot?)
